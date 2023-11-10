@@ -10,9 +10,17 @@ class AboutPage extends StatelessWidget {
       body: SafeArea(
         child: Padding(
           padding: const EdgeInsets.all(16.0),
-          child: Text('About Page'),
+          child: Column(
+            crossAxisAlignment: CrossAxisAlignment.start,
+            children: [
+              Text('Created and modified By : Yohanes Mahardika Arya'),
+              SizedBox(height: 10,),
+              Text('    .\n   ":"\n ___:____     |"\\/"|\n,' '        `.' '    \\  /\n|  O        \\___/  |\n~^~^~^~^~^~^~^~^~^~^~^~^~'),
+            ],
+          ),
         ),
       ),
     );
   }
 }
+

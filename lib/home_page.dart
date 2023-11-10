@@ -35,7 +35,7 @@ class _HomePageState extends State<HomePage> {
           _openDrinkFavorite(context = context, fullscreenDialog: false);
         },
         tooltip: 'Change Favorite',
-        child: Icon(Icons.sentiment_satisfied),
+        child: Icon(Icons.local_drink),
       ),
     );
   }
